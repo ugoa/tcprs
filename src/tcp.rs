@@ -125,6 +125,6 @@ impl Connection {
         tcph: etherparse::TcpHeaderSlice<'a>,
         data: &'a [u8],
     ) -> io::Result<()> {
-        unimplemented!();
+        Ok(())
     }
 }
